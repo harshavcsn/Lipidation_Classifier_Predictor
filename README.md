@@ -121,8 +121,20 @@ in [`models.py`](models.py).
 
 ## Citation
 
-This work is part of a manuscript currently under review. Citation details will
-be added upon publication.
+If you use this code, please cite:
+
+> Huang, Z., Alam, M. M., Shokri, M., et al. (2026). Lipoengineering of Biomolecular Condensates Controls Material Properties and Multiphase Hierarchy to Guide Organoid Morphogenesis. *bioRxiv*. https://doi.org/10.64898/2026.04.08.717265
+
+```bibtex
+@article{huang2026lipoengineering,
+  title   = {Lipoengineering of Biomolecular Condensates Controls Material Properties and Multiphase Hierarchy to Guide Organoid Morphogenesis},
+  author  = {Huang, Zhiwei and Alam, Md Mahbubul and Shokri, Mahtab and Savitrinarayana, Harshavardhan C. and Valappil, Sisila and Agarwal, Tanushree and Scrutton, Rob M. and Maryam, Laiba and Gulzar, Asma and Wang, Jinying and Tigani, Dominic J. and Pascoalino, Liege A. and Jadhav, Akshay V. and Adhya, Albert L. and Bah, Alaji and Qin, Zhao and Shi, Zheng and Blatchley, Michael R. and Chen, Jianhan and Knowles, Tuomas P. J. and Mozhdehi, Davoud},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.04.08.717265},
+  url     = {https://www.biorxiv.org/content/10.64898/2026.04.08.717265v1}
+}
+```
 
 ## License
 
