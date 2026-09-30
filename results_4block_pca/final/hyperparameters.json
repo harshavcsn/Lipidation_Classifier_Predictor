@@ -1,0 +1,42 @@
+{
+  "SVM_RBF": {
+    "params": {
+      "C": 3.1622776601683795,
+      "class_weight": null,
+      "gamma": 0.001
+    },
+    "cv_macro_f1_mean": 0.5358726549246808,
+    "cv_macro_f1_std": 0.05458850170695091,
+    "cv_balanced_accuracy_mean": 0.5618055555555556,
+    "cv_accuracy_mean": 0.77265625
+  },
+  "ElasticNetLogistic": {
+    "params": {
+      "C": 0.03162277660168379,
+      "class_weight": null,
+      "l1_ratio": 0.1
+    },
+    "cv_macro_f1_mean": 0.5064606750773295,
+    "cv_macro_f1_std": 0.05932094171438638,
+    "cv_balanced_accuracy_mean": 0.5322916666666667,
+    "cv_accuracy_mean": 0.7328125
+  },
+  "RandomForest": {
+    "params": {
+      "ccp_alpha": 0.01,
+      "class_weight": "balanced_subsample",
+      "criterion": "gini",
+      "max_depth": 50,
+      "max_features": 0.3,
+      "max_leaf_nodes": 8,
+      "max_samples": 0.5,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "n_estimators": 500
+    },
+    "cv_macro_f1_mean": 0.5056318822001872,
+    "cv_macro_f1_std": 0.05746803478871077,
+    "cv_balanced_accuracy_mean": 0.5269675925925925,
+    "cv_accuracy_mean": 0.72421875
+  }
+}

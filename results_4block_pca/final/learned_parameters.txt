@@ -1,0 +1,33 @@
+======================================================================
+SVM_RBF
+======================================================================
+support vectors: 52 of 64 training sequences ({'MS': 6, 'droplet': 24, 'fiber': 22})
+  a support-vector count close to the sample count means the model is leaning on nearly every point, which is common with small data and a soft margin
+
+======================================================================
+ElasticNetLogistic
+======================================================================
+coefficient matrix: (3, 180)
+exactly-zero coefficients: 459/540 (85.0%) -- L1 shrinkage drives these to zero
+
+largest absolute coefficients per class:
+  MS: A2_nonsec_PC1 (+0.000), A3_othersec_PC9 (+0.000), A3_othersec_PC11 (+0.000), A3_othersec_PC12 (+0.000), A3_othersec_PC13 (+0.000), A3_othersec_PC14 (+0.000), A3_othersec_PC15 (+0.000), A4_nonsec_PC1 (+0.000), A4_nonsec_PC2 (+0.000), A4_nonsec_PC3 (+0.000)
+  droplet: A3_helix_PC6 (+0.047), A3_othersec_PC9 (+0.042), A4_othersec_PC10 (+0.040), A4_othersec_PC13 (+0.039), A3_othersec_PC13 (+0.039), A3_othersec_PC14 (-0.039), A3_othersec_PC8 (-0.038), A4_othersec_PC12 (-0.036), A3_helix_PC9 (-0.035), A4_nonsec_PC7 (-0.035)
+  fiber: A3_othersec_PC9 (-0.063), A3_othersec_PC12 (+0.063), A3_helix_PC14 (-0.061), A3_helix_PC6 (-0.057), A3_beta_PC8 (+0.055), A3_helix_PC12 (+0.052), A4_othersec_PC10 (-0.047), A4_helix_PC9 (+0.047), A4_othersec_PC13 (-0.046), A3_othersec_PC11 (-0.045)
+
+======================================================================
+RandomForest
+======================================================================
+
+top 10 impurity-based feature importances:
+  A3_othersec_PC12: 0.0170
+  A3_beta_PC9: 0.0136
+  A3_nonsec_PC14: 0.0124
+  A4_othersec_PC13: 0.0124
+  A4_othersec_PC14: 0.0121
+  A3_beta_PC10: 0.0119
+  A3_beta_PC8: 0.0112
+  A3_helix_PC6: 0.0110
+  A3_beta_PC5: 0.0109
+  A4_othersec_PC10: 0.0106
+  (impurity importances are biased toward high-cardinality features; prefer the permutation results from step 5)

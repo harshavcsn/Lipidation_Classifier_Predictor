@@ -1,0 +1,4 @@
+job_id,model,params_json,accuracy_mean,accuracy_std,balanced_acc_mean,balanced_acc_std,macro_f1_mean,macro_f1_std,n_folds,failed,error,penalty_family
+14993,SVM_RBF,"{""C"": 3.1622776601683795, ""class_weight"": null, ""gamma"": 0.001}",0.77265625,0.0727821489854311,0.5618055555555556,0.0578013477268461,0.5358726549246808,0.0545885017069509,80,False,,
+13041,ElasticNetLogistic,"{""C"": 0.03162277660168379, ""class_weight"": null, ""l1_ratio"": 0.1}",0.7328125,0.080873526841297,0.5322916666666667,0.0613621343785711,0.5064606750773295,0.0593209417143863,80,False,,ElasticNet
+6552,RandomForest,"{""ccp_alpha"": 0.01, ""class_weight"": ""balanced_subsample"", ""criterion"": ""gini"", ""max_depth"": 50, ""max_features"": 0.3, ""max_leaf_nodes"": 8, ""max_samples"": 0.5, ""min_samples_leaf"": 1, ""min_samples_split"": 2, ""n_estimators"": 500}",0.72421875,0.0813063206241525,0.5269675925925925,0.0614964658153998,0.5056318822001872,0.0574680347887107,80,False,,

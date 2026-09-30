@@ -1,0 +1,4 @@
+# Training pipeline: steps 01-07
+-r requirements.txt
+matplotlib>=3.8
+aaindex>=1.3
